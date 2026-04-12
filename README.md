@@ -6,4 +6,4 @@ Homebrew tap for the Gumroad CLI.
 brew install --cask antiwork/cli/gumroad
 ```
 
-This repo contains the generated Homebrew cask published on each release.
+This repo contains the generated Homebrew cask published from [antiwork/gumroad-cli](https://github.com/antiwork/gumroad-cli) on each release.
