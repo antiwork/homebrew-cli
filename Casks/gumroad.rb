@@ -6,12 +6,12 @@ cask "gumroad" do
     on_intel do
       url "https://github.com/antiwork/gumroad-cli/releases/download/v#{version}/gumroad-cli_darwin_amd64.tar.gz",
         verified: "github.com/antiwork/gumroad-cli/"
-      sha256 "b898138af7041f7d5350d52f8ba2e4d13e45b386be6c3395c16ab40ad7001e30"
+      sha256 "afb08678589fe32b93b4ed3f4b75c4a46677acc4852c6c5e08499593595b0f99"
     end
     on_arm do
       url "https://github.com/antiwork/gumroad-cli/releases/download/v#{version}/gumroad-cli_darwin_arm64.tar.gz",
         verified: "github.com/antiwork/gumroad-cli/"
-      sha256 "7243abd66652b2012be2fea46d09aca52658aeba361d1d70557b13f09b1220d7"
+      sha256 "0a1614b5d899c4318cc960b962a737751e7f87370e28ffac9ecbb0ff38bd8f9a"
     end
   end
 
@@ -19,12 +19,12 @@ cask "gumroad" do
     on_intel do
       url "https://github.com/antiwork/gumroad-cli/releases/download/v#{version}/gumroad-cli_linux_amd64.tar.gz",
         verified: "github.com/antiwork/gumroad-cli/"
-      sha256 "81be882b70c458516b7b19b758f4279d5f7b61963a2557c3a26e954d049f4542"
+      sha256 "5592164171fca2b0583b22af999cec75d68065238c216a21cd3eb8d8288877df"
     end
     on_arm do
       url "https://github.com/antiwork/gumroad-cli/releases/download/v#{version}/gumroad-cli_linux_arm64.tar.gz",
         verified: "github.com/antiwork/gumroad-cli/"
-      sha256 "11fec423def8540d3c34c2ba0baf7491b2cf9e6c8f8ec8e177d96016318fef64"
+      sha256 "46e26c13aecf823e8b8849aa1a46906b4604f8ee18d1b76614c36ce35a26cb2c"
     end
   end
 
@@ -78,6 +78,8 @@ cask "gumroad" do
   manpage "man/gumroad-sales-ship.1"
   manpage "man/gumroad-sales-view.1"
   manpage "man/gumroad-sales.1"
+  manpage "man/gumroad-skill-install.1"
+  manpage "man/gumroad-skill.1"
   manpage "man/gumroad-subscribers-list.1"
   manpage "man/gumroad-subscribers-view.1"
   manpage "man/gumroad-subscribers.1"
