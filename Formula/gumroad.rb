@@ -2,28 +2,28 @@
 class Gumroad < Formula
   desc "CLI for the Gumroad API"
   homepage "https://github.com/antiwork/gumroad-cli"
-  version "0.19.0"
+  version "0.20.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/antiwork/gumroad-cli/releases/download/v0.19.0/gumroad-cli_darwin_arm64.tar.gz"
-      sha256 "34f6232457879d4264d50c6cb8680169e1af7e092a2495dd9928bd0a3751f0e3"
+      url "https://github.com/antiwork/gumroad-cli/releases/download/v0.20.0/gumroad-cli_darwin_arm64.tar.gz"
+      sha256 "bca20613145cf9cb318a86f5e88b6679f63010d5431acc8847ef56b2704ace87"
     end
     on_intel do
-      url "https://github.com/antiwork/gumroad-cli/releases/download/v0.19.0/gumroad-cli_darwin_amd64.tar.gz"
-      sha256 "39a255f6684120793c434a016a5069bf3333e9569cd53447cf8a007ffc417681"
+      url "https://github.com/antiwork/gumroad-cli/releases/download/v0.20.0/gumroad-cli_darwin_amd64.tar.gz"
+      sha256 "e8cb5873f5fabc5eca5a190248f065c2f6a4d84232936a4fa51835d57e0f831b"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/antiwork/gumroad-cli/releases/download/v0.19.0/gumroad-cli_linux_arm64.tar.gz"
-      sha256 "f108ef0419fc96c86f6b26f1c47385b06a5a9ff62daf6a2e2314cc66a1b271ea"
+      url "https://github.com/antiwork/gumroad-cli/releases/download/v0.20.0/gumroad-cli_linux_arm64.tar.gz"
+      sha256 "5032f8d182d89fc2ac948b2447ad2403a061d05c0c208e469367fdde89ece949"
     end
     on_intel do
-      url "https://github.com/antiwork/gumroad-cli/releases/download/v0.19.0/gumroad-cli_linux_amd64.tar.gz"
-      sha256 "41655c81a7de3d964e5ba7134b1e245f55e5082059cda248ed8047e05c8cb8de"
+      url "https://github.com/antiwork/gumroad-cli/releases/download/v0.20.0/gumroad-cli_linux_amd64.tar.gz"
+      sha256 "06a19437de32702777e1cee70d47fe1f7edb778df709ff83f4301f374bf25ee2"
     end
   end
 
